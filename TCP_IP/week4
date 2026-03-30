@@ -11,4 +11,12 @@ CSMA/CA : 무선 LAN(Wi-Fi) 환경에서 데이터 충돌을 최소화하기 위
   CA : Collision Avoidance : 무선은 충돌 감지가 어려워 충돌 발생 자체를 최대한 피하는 방식 사용.
 
 이더넷 속도
-  ex 100Mbps 요금제 사용시 충돌 등의 문제로 실제 속도는 그보다 느림, 무선의 경우 방식이 다르기에 좀더 느
+  ex 100Mbps 요금제 사용시 충돌 등의 문제로 실제 속도는 그보다 느림, 무선의 경우 방식이 다르기에 좀더 느림
+
+전송방식 비교
+
+  unicast : point to point, 한번에 한 개의 단말에 똑같은 패킷 3 번 보냄
+  Broadcast : point to Multiple, 모든 단말에 패킷을 1번 보냄
+  Multicast : point to Multipoint, 그룹에 속한 단말에만 패킷을 1번 보냄
+
+
